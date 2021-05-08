@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('registration', 'RegistrationController@Start');
+
+Route::resource('name', 'NameController@ChangeName');
+
+
